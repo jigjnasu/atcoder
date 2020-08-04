@@ -1,5 +1,5 @@
 /*
-  A - ABC/ARC
+  A - One Card Poker
   Contest 054
   Rakesh Kumar --> 04/08/2020
  */
