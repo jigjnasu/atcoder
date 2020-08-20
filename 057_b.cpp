@@ -1,5 +1,5 @@
 /*
-  A - Remaining Time
+  B - Checkpoints
   Contest 057
   Rakesh Kumar --> 20/08/2020
  */
