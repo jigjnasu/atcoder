@@ -14,11 +14,13 @@ struct Point {
     ll y = 0;
 };
 
-inline ll dist(const Point& a, const Point& b) {
-    return std::abs(a.x - b.x) + std::abs(a.y - b.y);
+inline ll dist(const std::shared_ptr<Point>& a,
+               const std::shared_ptr<Point>& b) {
+    return std::abs(a->x - b->x) + std::abs(a->y - b->y);
 }
 
-inline int pos(const Point& pos, const std::vector<Point>& checkpoints) {
+inline int pos(const std::shared_ptr<Point>& pos,
+               const std::vector<std::shared_ptr<Point>>& checkpoints) {
     ll min = dist(pos, checkpoints[0]);
     int p = 1;
     for (std::size_t i = 1; i < checkpoints.size(); ++i) {
@@ -37,20 +39,20 @@ int main() {
 
     int n = 0, m = 0;
     std::cin >> n >> m;
-    std::vector<Point> students;
+    std::vector<std::shared_ptr<Point>> students;
     while (n--) {
         ll a = 0, b = 0;
         std::cin >> a >> b;
-        students.emplace_back(Point(a, b));
+        students.emplace_back(new Point(a, b));
     }
-    std::vector<Point> checkpoints;
+    std::vector<std::shared_ptr<Point>> checkpoints;
     while (m--) {
         ll a = 0, b = 0;
         std::cin >> a >> b;
-        checkpoints.emplace_back(Point(a, b));
+        checkpoints.emplace_back(new Point(a, b));
     }
 
-    for (const Point& p : students)
+    for (const std::shared_ptr<Point>& p : students)
         std::cout << pos(p, checkpoints) << std::endl;
 
     return 0;
