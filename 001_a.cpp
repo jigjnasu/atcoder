@@ -1,6 +1,6 @@
 /*
-  A - Iroha and Haiku (ABC Edition)
-  Contest 042
+  Contest 001
+  A - BBQ Easy
   Rakesh Kumar --> 02/08/2020
  */
 
