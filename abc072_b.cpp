@@ -1,6 +1,6 @@
 /*
   Contest 072
-  A - Sandglass2
+  B - OddString
   Rakesh Kumar --> 10/09/2020
  */
 
