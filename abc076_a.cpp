@@ -1,6 +1,6 @@
 /*
-  Contest 075
-  A - One out of Three
+  Contest 076
+  A - Rating Goal
   Rakesh Kumar --> 11/09/2020
  */
 
