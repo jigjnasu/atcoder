@@ -1,6 +1,6 @@
 /*
   Contest 090
-  A - Diagonal String
+  B - Palindromic Numbers
   Rakesh Kumar --> 18/09/2020
  */
 
