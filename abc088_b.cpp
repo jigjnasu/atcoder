@@ -1,6 +1,6 @@
 /*
   Contest 088
-  A - Infinite Coins
+  B - Card Game for Two
   Rakesh Kumar --> 18/09/2020
  */
 
