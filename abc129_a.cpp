@@ -12,7 +12,7 @@ int main() {
 
     int p = 0, q = 0, r = 0;
     std::cin >> p >> q >> r;
-    std::cout << std::min(p + q, q + r) << std::endl;
+    std::cout << std::min(p + r, std::min(p + q, q + r)) << std::endl;
 
     return 0;
 }
