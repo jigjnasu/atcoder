@@ -15,11 +15,7 @@ int main() {
     std::cin.ignore();
     std::string s;
     std::getline(std::cin, s);
-    std::cot <<
-    if (a < 3200)
-        std::cout << "red" << std::endl;
-    else
-        std::cout << s << std::endl;
+    std::cout << (a < 3200 ? "red" : s) << std::endl;
 
     return 0;
 }
