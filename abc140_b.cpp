@@ -1,6 +1,6 @@
 /*
   Contest 140
-  A - Password
+  B - Buffet
   Rakesh Kumar --> 16/10/2020
  */
 
