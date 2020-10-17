@@ -1,5 +1,5 @@
 /*
-  Contest 141
+  Contest 142
   A - Odds of Oddness
   Rakesh Kumar --> 17/10/2020
  */
