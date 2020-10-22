@@ -1,3 +1,9 @@
+'''
+  Contest 150
+  B - Count ABC
+  Rakesh Kumar --> 22/10/2020
+'''
+
 def solve(s):
     print('{}'.format(s.count('ABC')))
 
