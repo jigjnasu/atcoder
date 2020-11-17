@@ -1,6 +1,6 @@
 /*
   Contest 162
-  A - Lucky 7
+  B - FizzBuzz Sum
   Rakesh Kumar --> 18/11/2020
  */
 
