@@ -6,7 +6,7 @@
 
 #include <bits/stdc++.h>
 
-std::size_t match(const std::string& s, const std::string& t) {
+inline std::size_t match(const std::string& s, const std::string& t) {
     std::size_t m = 0;
     for (std::size_t i = 0; i < s.size(); ++i)
         if (s[i] == t[i])
