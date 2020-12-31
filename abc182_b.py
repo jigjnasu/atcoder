@@ -1,6 +1,6 @@
 '''
   Contest 182
-  A - twiblr
+  B - Almost GCD
   Rakesh Kumar --> 01/01/2021
 '''
 
