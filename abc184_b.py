@@ -1,6 +1,6 @@
 '''
   Contest 184
-  A - Determinant
+  B - Quizzes
   Rakesh Kumar --> 10/01/2021
 '''
 
