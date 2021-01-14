@@ -1,6 +1,6 @@
 '''
-  Contest 188
-  A - Three-Point Shot
+  Contest 002
+  A - Range Product
   Rakesh Kumar --> 15/01/2021
 '''
 
