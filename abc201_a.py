@@ -1,7 +1,7 @@
 '''
   Contest 201
   A - Tiny Arithmetic Sequence
-  Rakesh Kumar --> 31/05/2021
+  Rakesh Kumar --> 05/06/2021
 '''
 
 def solve():
