@@ -1,3 +1,4 @@
+
 '''
   Contest 201
   A - Tiny Arithmetic Sequence
