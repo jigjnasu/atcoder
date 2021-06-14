@@ -9,6 +9,7 @@ def solve():
     s = 0
     for i in range(1, n + 1):
         s += k * (100 * i)
+    s += n * (k * (k + 1) >> 1)
     print(s)
 
 if __name__ == '__main__':
