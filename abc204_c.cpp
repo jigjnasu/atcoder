@@ -19,6 +19,7 @@ inline void print(const Graph& graph) {
 }
 
 int dfs(int node, const Graph& graph, std::vector<bool>& visit) {
+    if (visit[node]) return 0;
     visit[node] = true;
     int res = 1;
     for (std::size_t i = 0; i < graph[node].size(); ++i) {
@@ -44,9 +45,8 @@ int main() {
     //print(graph); // for testing purpose
     int res = 0;
     for (std::size_t i = 0; i < graph.size(); ++i) {
-        if (visit[i]) continue;
+        std::vector<bool> visit(graph.size(), false);
         res += dfs(i, graph, visit);
-        visit.clear(); visit = std::vector<bool>(n, false);
     }
     std::cout << res << std::endl;
 
