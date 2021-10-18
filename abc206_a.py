@@ -1,6 +1,6 @@
 '''
   Contest 206
-  C - POW
+  A - Maxi-Buying
   Rakesh Kumar --> 18/10/2021
 '''
 
