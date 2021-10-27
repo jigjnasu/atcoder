@@ -1,6 +1,6 @@
 '''
   Contest 213
-  A - Bitwise Exclusive Or
+  B - Booby Prize
   Rakesh Kumar --> 27/10/2021
 '''
 
