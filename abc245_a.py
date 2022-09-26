@@ -5,7 +5,6 @@
 '''
 
 import datetime
-from xmlrpc.client import DateTime
 
 def solve():
     a, b, c, d = map(int, input().split())
