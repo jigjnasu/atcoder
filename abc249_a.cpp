@@ -27,6 +27,14 @@ int distance_iterative(int w, int d, int r, int x) {
     return tw * d;
 }
 
+int distance(int w, int d, int r, int x) {
+    int tw = x / (w + r);
+    tw *= w;
+    int rw = x % (w + r);
+    tw += std::min(rw, w);
+    return tw * d;
+}
+
 int main() {
     std::ios_base::sync_with_stdio(false);
     std::cin.tie(0); std::cout.tie(0);
@@ -34,14 +42,18 @@ int main() {
     int a = 0, b = 0, c = 0, d = 0, e = 0, f = 0, x = 0;
     std::cin >> a >> b >> c >> d >> e >> f >> x;
 
-    const int td = distance_iterative(a, b, c, x);
-    const int ad = distance_iterative(d, e, f, x);
+    //const int td = distance_iterative(a, b, c, x);
+    //const int ad = distance_iterative(d, e, f, x);
+
+    const int td = distance(a, b, c, x);
+    const int ad = distance(d, e, f, x);
+
     if (td > ad)
-        printf("Takahashi\n");
+       printf("Takahashi\n");
     else if (td < ad)
-        printf("Aoki\n");
+       printf("Aoki\n");
     else
-        printf("Draw\n");
+       printf("Draw\n");
 
     return 0;
 }
