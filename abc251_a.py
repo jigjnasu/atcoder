@@ -10,5 +10,6 @@ def solve():
     s = input()
     for i in range(6):
         print(s[i % len(s)], end='')
+
 if __name__ == '__main__':
     solve()
