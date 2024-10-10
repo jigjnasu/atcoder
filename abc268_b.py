@@ -9,7 +9,7 @@ def solve():
     b = input()
     res = 'No'
     if len(a) <= len(b):
-        res = 'Yes' if a == b[:len(b)] else 'No'
+        res = 'Yes' if a == b[:len(a)] else 'No'
     print(res)
 
 if __name__ == '__main__':
