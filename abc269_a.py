@@ -7,7 +7,7 @@
 def solve():
     arr = list(map(int, input().split()))
     print((arr[0] + arr[1]) * (arr[2] - arr[3]))
-    print('Takashi')
+    print('Takahashi')
 
 if __name__ == '__main__':
     solve()
